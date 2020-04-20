@@ -16,7 +16,7 @@ function handleClickEvent() {
     titleText.forEach(title => title.classList.toggle('light-text'));
     followers.forEach(number => number.classList.toggle('light-text'));
     cards.forEach(card => card.classList.toggle('light-card'));
-    texts.forEach(text => text.style.color = "hsl(228, 12%, 44%)");
+    texts.forEach(text => text.classList.toggle('text-dark'));
 }
 
 themeSpan.addEventListener('click', handleClickEvent);

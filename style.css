@@ -41,7 +41,7 @@ header {
 .theme-switcher span {
   font-size: 14px;
   font-weight: 700;
-  color: hsl(228, 34%, 66%);
+  color: rgb(139, 151, 198);
 }
 
 .theme {
@@ -302,4 +302,8 @@ input:checked + .slider:before {
   .cards {
     justify-items: stretch;
   }
+}
+
+.text-dark {
+  color: rgb(99, 104, 126) !important;
 }
