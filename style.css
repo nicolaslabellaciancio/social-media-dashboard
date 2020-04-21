@@ -114,6 +114,7 @@ input:checked + .slider:before {
 .social-network-container {
   border-top: 3px solid;
   background: hsl(228, 28%, 20%);
+  min-height: 180px;
   height: 25vh;
   width: 12vw;
   min-width: 150px;
